@@ -2,4 +2,52 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    min-height: 2000px;
+    background: linear-gradient(rgb(249, 252, 254), rgb(238, 238, 238));
+    font-size: 24px;
+}
+
+.total-container {
+    text-align: center;
+    border: 1px solid gray;
+    width: 800px;
+    min-height: 2000px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.name-heading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    position: relative;
+    box-shadow: 0px 0px 0px 1px gray;
+    text-align: center;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.name-heading p {
+    font-size: 40px;
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+}
+
+.about-me {
+    background: linear-gradient(rgb(249, 253, 255),rgb(224, 232, 235));
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    min-height: 500px;
+}
+
+
+@media screen and (max-width: 700px) {
+   .total-container {
+       width: 400px;
+   }
 }
