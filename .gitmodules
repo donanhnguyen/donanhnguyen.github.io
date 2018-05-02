@@ -1,0 +1,3 @@
+[submodule "blackjack"]
+	path = blackjack
+	url = https://github.com/thedonwind69/blackjack.git
