@@ -2,52 +2,79 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    min-height: 2000px;
-    background: linear-gradient(rgb(249, 252, 254), rgb(238, 238, 238));
+    background: linear-gradient(rgb(249, 252, 254), rgb(115, 141, 179));
     font-size: 24px;
+}
+a {
+    text-decoration: none;
 }
 
 .total-container {
+    position: relative;
+    bottom: 23px;
     text-align: center;
-    border: 1px solid gray;
     width: 800px;
     min-height: 2000px;
     background: rgb(255, 255, 255);
     margin: auto;
 }
 
-.name-heading {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 24px;
-    position: relative;
-    box-shadow: 0px 0px 0px 1px gray;
-    text-align: center;
-    width: 100%;
-    background: rgb(255, 255, 255);
-    margin: auto;
+.portfolio-heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    margin: 0;
 }
-
-.name-heading p {
-    font-size: 40px;
+.portfolio-heading {
+    padding-top: 100px;
+    text-align: center;
+    background-image: url('../images/flag.jpg');
+    background-size: 100% 100%;
+    min-height: 300px;
+    color: white;
 }
 
 .pic {
+    position: relative;
+    bottom: 80px;
     width: 300px;
     height: 300px;
     border-radius: 50%; 
+    box-shadow: 1px 1px 5px 10px rgb(164, 180, 208);
+}
+.pic-container h1 {
+    margin: 0;
+    margin-bottom: 50px;
 }
 
-.about-me {
+.portfolio-section {
     background: linear-gradient(rgb(249, 253, 255),rgb(224, 232, 235));
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     min-height: 500px;
+    font-size: 20px;
 }
 
+@media screen and (max-width: 815px) {
+    .total-container {
+        width: 600px;
+    }
+    .portfolio-heading h1 {
+        font-size: 75px;
+    }
+    .portfolio-heading {
+        padding-top: 50px;
+    }
+ }
 
 @media screen and (max-width: 700px) {
    .total-container {
        width: 400px;
    }
 }
+@media screen and (max-width: 604px) {
+    .pic {
+        bottom:20px;
+        width: 200px;
+        height: 200px;
+    }
+ }
