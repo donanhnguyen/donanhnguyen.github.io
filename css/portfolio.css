@@ -11,10 +11,8 @@ a {
 
 .total-container {
     position: relative;
-    bottom: 23px;
     text-align: center;
     width: 800px;
-    min-height: 2000px;
     background: rgb(255, 255, 255);
     margin: auto;
 }
@@ -24,7 +22,11 @@ a {
     font-size: 100px;
     margin: 0;
 }
+.portfolio-heading p {
+    margin: 0;
+}
 .portfolio-heading {
+    position: relative;
     padding-top: 100px;
     text-align: center;
     background-image: url('../images/flag.jpg');
@@ -41,9 +43,13 @@ a {
     border-radius: 50%; 
     box-shadow: 1px 1px 5px 10px rgb(164, 180, 208);
 }
-.pic-container h1 {
+.pic-container {
+    padding-bottom: 50px;
+}
+.pic-container p {
     margin: 0;
-    margin-bottom: 50px;
+    padding: 5px;
+    font-size: 30px;    
 }
 
 .portfolio-section {
@@ -54,7 +60,7 @@ a {
     font-size: 20px;
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 820px) {
     .total-container {
         width: 600px;
     }
@@ -68,13 +74,18 @@ a {
 
 @media screen and (max-width: 700px) {
    .total-container {
-       width: 400px;
+       width: 500px;
    }
 }
-@media screen and (max-width: 604px) {
+@media screen and (max-width: 620px) {
     .pic {
-        bottom:20px;
-        width: 200px;
-        height: 200px;
+        bottom:40px;
+        width: 250px;
+        height: 250px;
+    }
+ }
+ @media screen and (max-width: 530px) {
+    .total-container {
+        width: 350px;
     }
  }
