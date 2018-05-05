@@ -89,3 +89,15 @@ a {
         width: 350px;
     }
  }
+ @media screen and (max-width: 430px) {
+    .total-container {
+        width: 250px;
+    }
+    .pic {
+        width: 200px;
+        height: 200px;
+    }
+    .portfolio-heading h1 {
+        font-size: 60px;
+    }
+ }
