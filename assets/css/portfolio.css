@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+}
+.skills-section {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    width: 200px;
+    margin: auto;
+}
+.skills-section ul {
+    padding-left:0;
+    font-size: 60px;
+    margin: 0;
+}
+.skills-section ul li {
+    padding-left:0;
+
+}
