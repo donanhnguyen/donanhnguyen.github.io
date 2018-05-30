@@ -19,7 +19,7 @@ ul {
 .icon {
     border-bottom: none;
     font-size: 40px;
-    color: rgb(210, 147, 147);    
+    color: rgb(206, 238, 255);    
 }
 
 @media screen and (max-width: 355px) {
