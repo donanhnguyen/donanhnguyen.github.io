@@ -19,9 +19,8 @@ ul {
 .icon {
     border-bottom: none;
     font-size: 40px;
-    color: rgb(206, 238, 255);    
+    color: rgb(187, 67, 67);    
 }
-
 @media screen and (max-width: 355px) {
     .skills-section ul {
         font-size: 45px;
