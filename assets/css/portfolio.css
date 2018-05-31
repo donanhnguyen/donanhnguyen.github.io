@@ -3,9 +3,9 @@ ul {
 }
 .skills-section {
     display: flex;
-    text-align: center;
+    justify-content: space-evenly;    
     margin: 0;
-    width: 200px;
+    width: 100%;
     margin: auto;
 }
 .skills-section ul {
@@ -23,6 +23,6 @@ ul {
 }
 @media screen and (max-width: 355px) {
     .skills-section ul {
-        font-size: 45px;
+        font-size: 42px;
     }
 }
