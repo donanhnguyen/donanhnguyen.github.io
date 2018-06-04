@@ -13,6 +13,14 @@ ul {
     font-size: 60px;
     margin: 0;
 }
+.redux {
+    background: url('http://res.cloudinary.com/dcf4iyb6t/image/upload/v1525989879/Portfolio%20Website/redux_logo2.png');
+    width: 78px;
+    height: 78px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: 100% 100%;
+}
 .skills-section ul li {
     padding-left:0;
 }
@@ -24,5 +32,11 @@ ul {
 @media screen and (max-width: 355px) {
     .skills-section ul {
         font-size: 42px;
+    }
+    .redux {
+        width: 58px;
+        height: 58px;
+        margin-bottom: 10px;
+        margin-top: 0px;
     }
 }
