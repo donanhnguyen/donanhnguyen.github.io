@@ -29,6 +29,7 @@ ul {
     font-size: 40px;
     color: rgb(187, 67, 67);    
 }
+
 @media screen and (max-width: 355px) {
     .skills-section ul {
         font-size: 42px;
