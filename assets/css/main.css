@@ -3873,3 +3873,10 @@
 		}
 
 	}
+
+	.image {
+		opacity: 0.8;
+	}
+	.image:hover {
+		opacity: 1.0;
+	}
