@@ -1623,8 +1623,8 @@
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/flag.jpg");
+		background-color: #ffffff;
+		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/flag.jpg"); */
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #0cc2ff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
@@ -1697,13 +1697,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #005eff;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #0385ff !important;
 		}
 
 		a.special:not(.button) {
@@ -1755,7 +1755,7 @@
 			}
 
 	strong, b {
-		color: #ffffff;
+		color: #00a7fa;
 		font-weight: 600;
 	}
 
@@ -1768,7 +1768,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #007aec;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.1em;
@@ -2362,15 +2362,21 @@
 						padding: 0.5em 0 0 0;
 					}
 
+
 						ul.actions.small li:first-child {
 							padding-top: 0;
 						}
 
 			}
 
+			.contact li {
+				color:rgb(0, 128, 255)
+			}
+
 		ul.contact {
 			list-style: none;
 			padding: 0;
+			color:rgb(0, 116, 248)
 		}
 
 			ul.contact li {
@@ -3172,10 +3178,10 @@
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
 			filter: blur(0); */
-			opacity: 1;
+			/* opacity: 1; */
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
-			font-weight: 200;
+			font-size: 1.5em;
+			font-weight: bold;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
@@ -3186,7 +3192,7 @@
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: url('../../images/flag.jpg');
+				/* background-image: url('../../images/flag.jpg'); */
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3769,7 +3775,7 @@
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(255, 255, 255, 0.35);
+				color: rgb(0, 98, 255);
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
