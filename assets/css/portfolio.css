@@ -88,3 +88,12 @@ padding-bottom:20px;
 
     }
 }
+
+@media screen and (max-width: 740px) {
+    .single-project-container img {
+
+        width: 90%;
+        height: 240px;
+
+    }
+}
