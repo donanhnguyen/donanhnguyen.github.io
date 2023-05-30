@@ -3532,7 +3532,7 @@
 			}
 
 				.wrapper.spotlight .image img {
-					/* border-radius: 100%; */
+					border-radius: 50%;
 					width: 100%;
 					min-height: 175px;
 				}
@@ -3880,9 +3880,3 @@
 
 	}
 
-	.image {
-		opacity: 0.8;
-	}
-	.image:hover {
-		opacity: 1.0;
-	}
