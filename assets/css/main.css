@@ -1645,7 +1645,8 @@
 
 	body, input, select, textarea {
 		color: #0cc2ff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+		font-family: 'Didact Gothic';
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
