@@ -42,7 +42,7 @@ ul {
     }
 }
 .heading-background-image {
-    background-image: url("../../images/bg.jpg");
+    background: radial-gradient(white, rgb(230, 255, 254));
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -78,8 +78,10 @@ padding-bottom:20px;
     margin: 0px;
 }
 .name {
-    color: yellow;
+    color: #71a8ff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glowing effect */
 }
+
 @media screen and (max-width: 1300px) {
     .single-project-container img {
 
