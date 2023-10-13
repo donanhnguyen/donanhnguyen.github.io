@@ -42,7 +42,7 @@ ul {
     }
 }
 .heading-background-image {
-    background: radial-gradient(white, rgb(230, 255, 254));
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
