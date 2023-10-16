@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #ffffff;
+		background-color: #022247d3;
 		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/flag.jpg"); */
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -1698,7 +1698,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #005eff;
+		color: #ffffff;
 		text-decoration: none;
 	}
 
@@ -2371,13 +2371,13 @@
 			}
 
 			.contact li {
-				color:rgb(0, 128, 255)
+				color:rgb(255, 255, 255)
 			}
 
 		ul.contact {
 			list-style: none;
 			padding: 0;
-			color:rgb(0, 116, 248)
+			color:rgb(255, 255, 255)
 		}
 
 			ul.contact li {
@@ -3345,11 +3345,12 @@
 	}
 
 	.content h2 {
-		color: black;
+		color: rgb(255, 255, 255);
+		text-align: center;
 	}
 
 	.wrapper {
-		background-color: #e9e9e9;
+		background-color: #005cbe;
 		color: rgb(0, 0, 0);
 		margin: 6.5em 0;
 		position: relative;
@@ -3492,7 +3493,7 @@
 			}
 
 		.wrapper.spotlight {
-			background-color: #f5f5f5f5;
+			background-color: #556c86;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
@@ -3556,7 +3557,7 @@
 			}
 
 			.wrapper.spotlight.style2 {
-				/* background-color: #45558d; */
+				background-color: #000c39bd;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
@@ -3776,7 +3777,7 @@
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgb(0, 98, 255);
+				color: rgb(255, 255, 255);
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
@@ -3804,6 +3805,7 @@
 			background-position: center, center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
+			
 		}
 
 	}

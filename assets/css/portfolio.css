@@ -43,7 +43,7 @@ ul {
     }
 }
 .heading-background-image {
-    background-color: rgb(255, 255, 255);
+    background-color: #00183d;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -58,7 +58,7 @@ padding-bottom:20px;
 }
 .project-description {
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .project-link {
     text-align: center;
@@ -69,7 +69,7 @@ padding-bottom:20px;
     margin: auto;
     margin-bottom: 20px;
     width: 700px;
-    height: 400px;
+    height: 380px;
     padding: 10px;
     box-shadow: 1px 1px 4px 1px rgba(221, 221, 221, 0.493);
     border-radius: 10px;
@@ -80,15 +80,15 @@ padding-bottom:20px;
     margin: 0px;
 }
 .name {
-    color: #71a8ff;
+    color: #ffffff;
     text-shadow: 0 0 2px rgba(255, 255, 255, 0.8); /* Glowing effect */
 }
 
 @media screen and (max-width: 1300px) {
     .single-project-container img {
 
-        width: 70%;
-        height: 320px;
+        width: 600px;
+        height: 350px;
 
     }
 }
@@ -97,7 +97,23 @@ padding-bottom:20px;
     .single-project-container img {
 
         width: 90%;
-        height: 240px;
+        height: 340px;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .single-project-container img {
+
+        width: 90%;
+        height: 310px;
+
+    }
+}
+@media screen and (max-width: 500px) {
+    .single-project-container img {
+
+        width: 95%;
+        height: 250px;
 
     }
 }
