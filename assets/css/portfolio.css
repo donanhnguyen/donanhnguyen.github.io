@@ -2,16 +2,16 @@ ul {
     list-style: none;
 }
 .skills-section {
-    display: flex;
-    justify-content: space-evenly;    
-    margin: 0;
+       
     width: 100%;
     margin: auto;
 }
 .skills-section ul {
     padding-left:0;
     font-size: 60px;
-    margin: 0;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
 }
 .redux {
     background: url('http://res.cloudinary.com/dcf4iyb6t/image/upload/v1525989879/Portfolio%20Website/redux_logo2.png');
@@ -22,7 +22,8 @@ ul {
     background-size: 100% 100%;
 }
 .skills-section ul li {
-    padding-left:0;
+    margin: 10px;
+    padding-left: 0px;
 }
 .icon {
     border-bottom: none;
@@ -70,7 +71,8 @@ padding-bottom:20px;
     width: 700px;
     height: 400px;
     padding: 10px;
-    box-shadow: 1px 1px 1px 1px gray;
+    box-shadow: 1px 1px 4px 1px rgba(221, 221, 221, 0.493);
+    border-radius: 10px;
 }
 
 .project-title {
@@ -79,7 +81,7 @@ padding-bottom:20px;
 }
 .name {
     color: #71a8ff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glowing effect */
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8); /* Glowing effect */
 }
 
 @media screen and (max-width: 1300px) {
