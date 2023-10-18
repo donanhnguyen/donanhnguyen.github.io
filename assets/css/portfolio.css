@@ -231,7 +231,11 @@ padding-bottom:20px;
     color: #fff;
     text-decoration: none;
 }
-
+@media screen and (max-width: 600px) {
+    .email {
+        font-size: 0.8em;
+    }
+}
 @media screen and (max-width: 300px) {
     .email {
         font-size: 0.8em;
