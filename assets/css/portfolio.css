@@ -184,17 +184,16 @@ padding-bottom:20px;
   
   .flip-card-back {
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     background-color: #001828;
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
-
   }
 
   .flip-card-back p {
-    font-size: .7em;
+    font-size: 1.05rem;
   }
 
 .threeskills {
