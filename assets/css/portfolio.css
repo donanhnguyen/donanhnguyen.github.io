@@ -43,6 +43,7 @@ ul {
     }
 }
 .heading-background-image {
+    background: url('../../images/Austin.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
